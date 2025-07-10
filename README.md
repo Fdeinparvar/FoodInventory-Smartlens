@@ -203,28 +203,6 @@ CREATE TABLE table_settings (
 ### Dynamic Tables
 Each location creates its own table with the structure defined in table_settings.
 
-## 🔄 API Endpoints
-
-### Core Routes
-- `GET /`: Main inventory page
-- `GET /settings`: Table management page
-- `POST /add_table`: Create new table
-- `POST /edit_table`: Update existing table
-- `GET /delete_table/<table_id>`: Delete table
-- `POST /update_table_order`: Update tab order
-
-### Item Management
-- `GET /add`: Add item form
-- `POST /add`: Add item
-- `GET /edit/<rowid>`: Edit item form
-- `POST /edit/<rowid>`: Update item
-- `GET /delete/<rowid>`: Delete item
-- `POST /inline_edit`: Inline editing
-
-### AI Analysis
-- `POST /analyze_product`: AI product analysis
-- `GET /get_table_config/<table_id>`: Get table configuration
-
 ## 🐛 Troubleshooting
 
 ### Common Issues
@@ -265,7 +243,6 @@ Each location creates its own table with the structure defined in table_settings
 ## 🔮 Future Enhancements
 
 Potential improvements for future versions:
-- **Barcode scanning**: Add barcode/QR code support
 - **Export/import**: CSV/Excel export and import
 - **Notifications**: Expiration date alerts
 - **Recipe integration**: Link items to recipes
