@@ -70,8 +70,8 @@ def init_database():
         # Insert default tables
         default_tables = [
             ('pantry', 'Pantry',
-             json.dumps(['item', 'dateofpurchase', 'amount']),
-             json.dumps(['Item', 'Date of Purchase', 'Amount']), 0),
+             json.dumps(['item', 'Expiration Date', 'amount']),
+             json.dumps(['Item', 'Expiration Date', 'Amount']), 0),
             ('basement_freezer', 'Basement Freezer', 
              json.dumps(['item', 'dateofpurchase', 'weight', 'amount']),
              json.dumps(['Item', 'Date of Purchase', 'Weight', 'Amount']), 1)
