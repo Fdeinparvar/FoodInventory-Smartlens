@@ -64,7 +64,7 @@ For AI analysis features, you'll need an Anthropic API key:
 
 ### 3. Run the Application
 ```bash
-cd v3
+cd //Path of folder//
 python food_webapp_V3.py
 ```
 
